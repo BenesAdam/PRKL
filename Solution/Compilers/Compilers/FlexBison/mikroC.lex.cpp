@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #line 2 "mikroC.lex.cpp"
 
 #line 4 "mikroC.lex.cpp"

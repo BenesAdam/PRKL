@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #ifndef  MikroC_h
 #define  MikroC_h
 

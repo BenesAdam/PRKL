@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 /* A Bison parser, made by GNU Bison 2.7.  */
 
 /* Bison implementation for Yacc-like parsers in C
