@@ -1,14 +1,2 @@
-﻿  mikroC.lex.cpp
-  mikroC.tab.cpp
-C:\Users\adamb\Desktop\PRKL\Solution\Compilers\Compilers\mikroC.tab.cpp(1279,5): warning C4065: switch statement contains 'default' but no 'case' labels
-  Source.cpp
-  Generating Code...
-mikroC.lex.obj : error LNK2019: unresolved external symbol "void __cdecl Chyba(char const *,enum Pozice)" (?Chyba@@YAXPBDW4Pozice@@@Z) referenced in function "int __cdecl yylex(void)" (?yylex@@YAHXZ)
-mikroC.tab.obj : error LNK2001: unresolved external symbol "void __cdecl Chyba(char const *,enum Pozice)" (?Chyba@@YAXPBDW4Pozice@@@Z)
-mikroC.tab.obj : error LNK2019: unresolved external symbol "struct Uzel * __cdecl GenUzel(int,struct Uzel *,struct Uzel *,struct Uzel *,struct Uzel *)" (?GenUzel@@YAPAUUzel@@HPAU1@000@Z) referenced in function "int __cdecl yyparse(void)" (?yyparse@@YAHXZ)
-mikroC.tab.obj : error LNK2019: unresolved external symbol "struct Uzel * __cdecl GenCislo(int)" (?GenCislo@@YAPAUUzel@@H@Z) referenced in function "int __cdecl yyparse(void)" (?yyparse@@YAHXZ)
-mikroC.tab.obj : error LNK2019: unresolved external symbol "struct Uzel * __cdecl GenRetez(char const *)" (?GenRetez@@YAPAUUzel@@PBD@Z) referenced in function "int __cdecl yyparse(void)" (?yyparse@@YAHXZ)
-mikroC.tab.obj : error LNK2019: unresolved external symbol "struct Uzel * __cdecl GenPromen(char const *)" (?GenPromen@@YAPAUUzel@@PBD@Z) referenced in function "int __cdecl yyparse(void)" (?yyparse@@YAHXZ)
-mikroC.tab.obj : error LNK2019: unresolved external symbol "void __cdecl yyerror(char const *)" (?yyerror@@YAXPBD@Z) referenced in function "int __cdecl yyparse(void)" (?yyparse@@YAHXZ)
-mikroC.tab.obj : error LNK2001: unresolved external symbol "struct Uzel * Koren" (?Koren@@3PAUUzel@@A)
-C:\Users\adamb\Desktop\PRKL\Solution\Compilers\Debug\Compilers.exe : fatal error LNK1120: 7 unresolved externals
+﻿  Source.cpp
+  Compilers.vcxproj -> C:\Users\adamb\Desktop\PRKL\Solution\Compilers\Debug\Compilers.exe

@@ -150,6 +150,7 @@
   <ItemGroup>
     <ClCompile Include="FlexBison\mikroC.lex.cpp" />
     <ClCompile Include="FlexBison\mikroC.tab.cpp" />
+    <ClCompile Include="mikroC.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -16,6 +16,9 @@
     <Filter Include="FlexBison">
       <UniqueIdentifier>{ee02848a-3cfc-4eda-bd59-04d8d51ae936}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Programs">
+      <UniqueIdentifier>{22593ea4-9975-4bab-8fbd-030b23b8bde4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FlexBison\mikroC.h">
@@ -42,6 +45,9 @@
     </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mikroC.cpp">
+      <Filter>FlexBison</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
