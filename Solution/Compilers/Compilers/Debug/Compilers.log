@@ -1,0 +1,7 @@
+﻿  mikroC.lex.cpp
+C:\Users\adamb\Desktop\PRKL\Solution\Compilers\Compilers\mikroC.l(42,3): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\adamb\Desktop\PRKL\Solution\Compilers\Compilers\mikroC.l(46,3): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  mikroC.tab.cpp
+C:\Users\adamb\Desktop\PRKL\Solution\Compilers\Compilers\mikroC.tab.cpp(1279,5): warning C4065: switch statement contains 'default' but no 'case' labels
+  Source.cpp
+  Generating Code...
