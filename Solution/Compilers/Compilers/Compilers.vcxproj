@@ -146,6 +146,14 @@
   <ItemGroup>
     <None Include="FlexBison\mikroC.l" />
     <None Include="FlexBison\mikroC.y" />
+    <None Include="Programs\ASCII.mC" />
+    <None Include="Programs\Dekadicke na binarni.mC" />
+    <None Include="Programs\Fibonacci.mC" />
+    <None Include="Programs\Lexikalni a syntakticke chyby.mC" />
+    <None Include="Programs\Parita.mC" />
+    <None Include="Programs\Prvocisla.mC" />
+    <None Include="Programs\Pyramida.mC" />
+    <None Include="Programs\test.mC" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FlexBison\mikroC.lex.cpp" />

@@ -1,14 +1,26 @@
-#define _CRT_SECURE_NO_WARNINGS
+/* TODO:
+*		- doplnit kod pro funkce v mikroC.cpp
+*		- doplnit kod do funkce Interpr
+*/
 
+//---------------------------------------------------
+// Inlcudes
+//---------------------------------------------------
+#define _CRT_SECURE_NO_WARNINGS
 #include <cstdio>
 #include <cstdlib>
-
 #include "FlexBison/mikroC.h"
-extern FILE* yyin;
 
+//---------------------------------------------------
+// Variables
+//---------------------------------------------------
+extern FILE* yyin;
 Uzel* Koren = 0;
 
-int Interpr(const Uzel* u) // Interpretace interní formy
+//---------------------------------------------------
+// Functions
+//---------------------------------------------------
+int Interpr(const Uzel* u)
 {
 	if (u == NULL) return 0;
 #define prvni u->z.z.prvni
@@ -54,26 +66,38 @@ int Interpr(const Uzel* u) // Interpretace interní formy
 
 int main(int argc, char* argv[])
 {
-	//if (argc < 2)
-	//{
-	//	printf("Cesta k souboru nebyla vyplnena.\n");
-	//	exit(0);
-	//}
-	//const char* Source = argv[1];	// cesta k souboru se zdrojovým programem mikroC
-	//															// je zadána na pøíkazovém øádku pøi volání interpreteru 
+	const bool debug = true;
 
-	const char* path = "Programs/test.mC";
+	// processing of input
+	const char* path;
+	if (debug)
+	{
+		path = "Programs/test.mC";
+	}
+	else
+	{
+		if (argc < 2)
+		{
+			printf("Cesta k souboru nebyla vyplnena.\n");
+			exit(0);
+		}
+		path = argv[1];
+	}
 
+	// reading of file
 	if (!(yyin = fopen(path, "rt")))
 	{
 		printf("Soubor %s nelze otevrit.\n", path);
 		exit(0);
 	}
 
+	// flex/bison calls
 	Flush();
 	LexInit();
 	int parse = yyparse();
 	fclose(yyin);
 	if (parse) exit(0);
+
+	// interpretation of internal form
 	Interpr(Koren);
 }

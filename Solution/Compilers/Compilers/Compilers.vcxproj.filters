@@ -35,6 +35,30 @@
     <None Include="FlexBison\mikroC.y">
       <Filter>FlexBison</Filter>
     </None>
+    <None Include="Programs\ASCII.mC">
+      <Filter>Programs</Filter>
+    </None>
+    <None Include="Programs\Dekadicke na binarni.mC">
+      <Filter>Programs</Filter>
+    </None>
+    <None Include="Programs\Fibonacci.mC">
+      <Filter>Programs</Filter>
+    </None>
+    <None Include="Programs\Lexikalni a syntakticke chyby.mC">
+      <Filter>Programs</Filter>
+    </None>
+    <None Include="Programs\Parita.mC">
+      <Filter>Programs</Filter>
+    </None>
+    <None Include="Programs\Prvocisla.mC">
+      <Filter>Programs</Filter>
+    </None>
+    <None Include="Programs\Pyramida.mC">
+      <Filter>Programs</Filter>
+    </None>
+    <None Include="Programs\test.mC">
+      <Filter>Programs</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FlexBison\mikroC.lex.cpp">
